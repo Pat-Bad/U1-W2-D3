@@ -148,7 +148,7 @@ console.log(eyeColor)
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
   Ogni personaggio dovrà finire nell'array corrispondente al suo colore degli occhi (al valore della sua proprietà "eye_color").
 */
-for (i = 0; starWarsCharacters.length; i++) {
+for (i = 0; i < starWarsCharacters.length; i++) {
   switch (starWarsCharacters.eye_color) {
     case blue:
       eyeColor.blue.push(starWarsCharacter[i])
